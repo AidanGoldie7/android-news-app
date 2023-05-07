@@ -72,17 +72,17 @@
 
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/entertainment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Entertainment"></com.google.android.material.tabs.TabItem>
-
-
-        <com.google.android.material.tabs.TabItem
             android:id="@+id/science"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Science"></com.google.android.material.tabs.TabItem>
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/entertainment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entertainment"></com.google.android.material.tabs.TabItem>
 
 
         <com.google.android.material.tabs.TabItem
