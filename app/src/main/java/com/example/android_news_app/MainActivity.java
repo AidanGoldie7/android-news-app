@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     TabItem mhome, mscience, mhealth, mtech, mentertainment, msports;
     PagerAdapter pagerAdapter;
     Toolbar mtoolbar;
+    //initialise api key
+    String api ="avd_QiErAGMcEjSocycXS-3DqQl8XVVOmzffj6POpAE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
