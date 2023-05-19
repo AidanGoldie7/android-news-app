@@ -3,15 +3,16 @@ package com.example.android_news_app;
 public class ModelClass {
 
     //all variables to get from the API GET
-    private String title, author, published_date, link, summary;
+    private String title, author, published_date, link, summary, media;
 
     //constructor
-    public ModelClass(String title, String author, String published_date, String link, String summary) {
+    public ModelClass(String title, String author, String published_date, String link, String summary, String media) {
         this.title = title;
         this.author = author;
         this.published_date = published_date;
         this.link = link;
         this.summary = summary;
+        this.media = media;
     }
 
 
@@ -54,5 +55,13 @@ public class ModelClass {
 
     public void setSummary(String summary) {
         this.summary = summary;
+    }
+
+    public String getMedia() {
+        return media;
+    }
+
+    public void setMedia(String media) {
+        this.media = media;
     }
 }
