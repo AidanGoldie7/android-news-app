@@ -3,7 +3,7 @@ package com.example.android_news_app;
 import java.util.ArrayList;
 
 public class mainNews {
-
+    //variable initialisation
     private String status;
     private String totalResults;
     //to pull from 'articles' array in documentation on newscatcher API website
