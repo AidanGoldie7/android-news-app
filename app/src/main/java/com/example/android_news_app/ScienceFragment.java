@@ -20,6 +20,7 @@ import retrofit2.Response;
 
 public class ScienceFragment extends Fragment {
 
+    //variable initialisation
     String api ="avd_QiErAGMcEjSocycXS-3DqQl8XVVOmzffj6POpAE";
     ArrayList<ModelClass> modelClassArrayList;
     Adapter adapter;
