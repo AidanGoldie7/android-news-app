@@ -12,7 +12,7 @@ import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    //variable declaration
     TabLayout tabLayout;
     TabItem mhome, mscience, mhealth, mtech, mentertainment, msports;
     PagerAdapter pagerAdapter;
